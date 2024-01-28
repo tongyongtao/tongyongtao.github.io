@@ -102,7 +102,7 @@ friends: [
         title: "Spring",
         href: "https://spring.io"
     },{
-        title: "Apple Developer",
+        title: "Mybatis",
         href: "https://blog.mybatis.org/"
     }
 ]
