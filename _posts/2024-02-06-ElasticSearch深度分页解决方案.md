@@ -9,7 +9,8 @@ catalog: true # 是否归档
 tags: #标签
     - Elasticsearch
     - 解决方案
-typora-root-url: ../../blog
+typora-copy-images-to: ../assets/images  #复制图片存储路径
+typora-root-url: ../../blog  #博客根路径
 ---
 
 # 前言
