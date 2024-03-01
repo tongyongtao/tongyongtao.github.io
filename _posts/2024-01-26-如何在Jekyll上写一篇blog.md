@@ -27,8 +27,8 @@ header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 生活
-typora-copy-images-to: ../assets/images #复制图片存储路径
-typora-root-url: ../../blog  #博客根路径
+typora-copy-images-to: ../assets/images
+typora-root-url: ../../blog
 ````
 
 
