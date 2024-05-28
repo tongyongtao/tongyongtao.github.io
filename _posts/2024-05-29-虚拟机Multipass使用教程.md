@@ -1,14 +1,14 @@
 ---
 layout:     post     # 使用的布局（不需要改）
 title:      虚拟机Multipass使用教程
-subtitle:   如何使用Multipass虚拟机
-date:       2024-05-27
+subtitle:   Multipass使用方式
+date:       2024-05-29 # 时间
 author:     Tong # 作者
-header-img: img/post-bg-2015.jpg 
+header-img: img/post-bg-2015.jpg #这篇文章标题背景图片
 catalog: true # 是否归档
 tags: #标签
     - Multipass
-    — 教程
+    - 教程
 typora-copy-images-to: ../assets/images
 typora-root-url: ../../blog
 ---
