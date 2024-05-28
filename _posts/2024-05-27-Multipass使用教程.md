@@ -1,9 +1,9 @@
 ---
 layout:     post     # 使用的布局（不需要改）
-title:      Multipass使用教程
+title:      虚拟机Multipass使用教程
 subtitle:   如何使用Multipass虚拟机
 date:       2024-05-27
-author:     Tong
+author:     Tong # 作者
 header-img: img/post-bg-2015.jpg 
 catalog: true # 是否归档
 tags: #标签
@@ -56,3 +56,6 @@ sudo service ssh restart
 
 ![image-20240527220811419](/assets/images/image-20240527220811419.png)
 
+
+
+### 2、未完待续。。。
