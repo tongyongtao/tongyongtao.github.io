@@ -4,7 +4,7 @@ title:      Multipass使用教程
 subtitle:   如何使用Multipass虚拟机
 date:       2024-05-27
 author:     Tong
-header-img: img/post-bg-2015.jpg #这篇文章标题背景图片
+header-img: img/post-bg-2015.jpg 
 catalog: true # 是否归档
 tags: #标签
     - Multipass
