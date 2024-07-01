@@ -56,7 +56,7 @@ sudo service ssh restart
 
 使用第三方ssh工具连接即可：
 
-![image-20240527220811419](/Users/tong/work/learning/blog/assets/images/image-20240527220811419.png)
+![image-20240527220811419](/assets/images/image-20240527220811419.png)
 
 
 
