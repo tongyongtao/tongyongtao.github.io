@@ -32,25 +32,25 @@ typora-root-url: ../../blog
 
 #### 2022.x分支
 
-![image-20250221122418542](/Users/tong/work/learning/blog/assets/images/image-20250221122418542.png)
+![image-20250221122418542](/assets/images/image-20250221122418542.png)
 
 
 
 #### 2021.x分支
 
-![image-20250221122451925](/Users/tong/work/learning/blog/assets/images/image-20250221122451925.png)
+![image-20250221122451925](/assets/images/image-20250221122451925.png)
 
 
 
 #### 2.2.x分支
 
-![image-20250221122531089](/Users/tong/work/learning/blog/assets/images/image-20250221122531089.png)
+![image-20250221122531089](/assets/images/image-20250221122531089.png)
 
 
 
 #### 组件版本关系
 
-![image-20250221122649412](/Users/tong/work/learning/blog/assets/images/image-20250221122649412.png)
+![image-20250221122649412](/assets/images/image-20250221122649412.png)
 
 
 
@@ -121,11 +121,11 @@ docker run --name cloud-nacos-slim -e MODE=standalone -p 8848:8848 -p 9848:9848 
 
 需要注意的一点是2.x相对1.x版本的Nacos新增了gRPC的通讯方式，因此需要多开放两个端口，如果没开放这两个端口服务是注册不到Nacos服务上的
 
-![image-20250221141435184](/Users/tong/work/learning/blog/assets/images/image-20250221141435184.png)
+![image-20250221141435184](/assets/images/image-20250221141435184.png)
 
 服务启动后在浏览器输入：http://localhost:8848/nacos
 
-![image-20250221141813349](/Users/tong/work/learning/blog/assets/images/image-20250221141813349.png)
+![image-20250221141813349](/assets/images/image-20250221141813349.png)
 
 Nacos服务搭建好了
 
@@ -135,7 +135,7 @@ Nacos服务搭建好了
 
 微服务的服务注册和发现相信都用过Eureka，要自己本地构建一个Eureka微服务，但是整合了Alibaba的Nacos则不用那么复杂，直接启动Alibaba提供的Nacos服务即可，这样让程序员把全部精力放在业务上，下面是一个简单的架构图：
 
-![image-20250221142901717](/Users/tong/work/learning/blog/assets/images/image-20250221142901717.png)
+![image-20250221142901717](/assets/images/image-20250221142901717.png)
 
 
 
@@ -215,7 +215,7 @@ public class HelloController {
 
 启动成功之后在nacos的服务管理->服务列表这里将会发现注册进入的nacos-provider这个服务，如下图：
 
-![image-20250221153638055](/Users/tong/work/learning/blog/assets/images/image-20250221153638055.png)
+![image-20250221153638055](/assets/images/image-20250221153638055.png)
 
 OK，在nacos中能够看到服务注册成功了，完成任务..........
 
@@ -323,13 +323,13 @@ public class NacosConsumerApplication {
 
 启动成功之后将会在nacos中的服务列表中查看到两个服务，分别是nacos-provider、nacos-consumer，如下图：
 
-![image-20250221155136418](/Users/tong/work/learning/blog/assets/images/image-20250221155136418.png)
+![image-20250221155136418](/assets/images/image-20250221155136418.png)
 
 此时服务提供者和消费者都已成功注册到Nacos，那么接下来就是测试服务能否调的通的问题了。
 
 直接调用nacos-consumer的接口，输入地址：`http://localhost:8080/consumer`，返回信息如下图则表示相互调用成功：
 
-![image-20250221155327958](/Users/tong/work/learning/blog/assets/images/image-20250221155327958.png)
+![image-20250221155327958](/assets/images/image-20250221155327958.png)
 
 
 
@@ -422,7 +422,7 @@ ${prefix}-${spring.profiles.active}.${file-extension}
 
 
 
-![image-20250226172129644](/Users/tong/work/learning/blog/assets/images/image-20250226172129644.png)
+![image-20250226172129644](/assets/images/image-20250226172129644.png)
 
 
 
@@ -462,7 +462,7 @@ public class HelloController {
 
 #### 5、启动服务
 
-![image-20250226172644511](/Users/tong/work/learning/blog/assets/images/image-20250226172644511.png)
+![image-20250226172644511](/assets/images/image-20250226172644511.png)
 
 
 
@@ -486,7 +486,7 @@ public class DynamicNacosConfigProperties {
 
 现在就能动态刷新了
 
-![image-20250226172949347](/Users/tong/work/learning/blog/assets/images/image-20250226172949347.png)
+![image-20250226172949347](/assets/images/image-20250226172949347.png)
 
 
 
@@ -512,21 +512,21 @@ public class DynamicNacosConfigProperties {
 
 Nacos中默认提供的命名空间则是`public`，上述我们创建的`config.version`这个配置就属于`public`这个命名空间，如下图：
 
-![image-20250226174746936](/Users/tong/work/learning/blog/assets/images/image-20250226174746936.png)
+![image-20250226174746936](/assets/images/image-20250226174746936.png)
 
 
 
 当然我们可以根据业务需要创建自己的命名空间，我直接创建了三个，分别是**dev**、**test**、**prod**
 
-![image-20250226175143753](/Users/tong/work/learning/blog/assets/images/image-20250226175143753.png)
+![image-20250226175143753](/assets/images/image-20250226175143753.png)
 
 分别给这三个命名空间新增配置文件：
 
-![image-20250226175349830](/Users/tong/work/learning/blog/assets/images/image-20250226175349830.png)
+![image-20250226175349830](/assets/images/image-20250226175349830.png)
 
-![image-20250226175414996](/Users/tong/work/learning/blog/assets/images/image-20250226175414996.png)
+![image-20250226175414996](/assets/images/image-20250226175414996.png)
 
-![image-20250226175428845](/Users/tong/work/learning/blog/assets/images/image-20250226175428845.png)
+![image-20250226175428845](/assets/images/image-20250226175428845.png)
 
 
 
@@ -553,7 +553,7 @@ spring:
 
 启动项目
 
-![image-20250226175744976](/Users/tong/work/learning/blog/assets/images/image-20250226175744976.png)
+![image-20250226175744976](/assets/images/image-20250226175744976.png)
 
 
 
@@ -573,7 +573,7 @@ spring:
 
 Nacos中新建共享配置
 
-![image-20250227154103074](/Users/tong/work/learning/blog/assets/images/image-20250227154103074.png)
+![image-20250227154103074](/assets/images/image-20250227154103074.png)
 
 
 
@@ -642,7 +642,7 @@ public class HelloController {
 
 启动服务
 
-![image-20250227154305448](/Users/tong/work/learning/blog/assets/images/image-20250227154305448.png)
+![image-20250227154305448](/assets/images/image-20250227154305448.png)
 
 
 
@@ -658,7 +658,7 @@ public class HelloController {
 
 一般分布式系统中，肯定是优先保证P，剩下的就是C和A的取舍。
 
-<img src="/Users/tong/work/learning/blog/assets/images/image-20250227160759524.png" alt="image-20250227160759524" style="zoom:67%;" align="left" />
+<img src="/assets/images/image-20250227160759524.png" alt="image-20250227160759524" style="zoom:67%;" align="left" />
 
 
 
