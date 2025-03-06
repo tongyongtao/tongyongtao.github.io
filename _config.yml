@@ -42,8 +42,6 @@ anchorjs: true                          # if you want to customize anchor. check
 gems: [jekyll-paginate]
 
 
-compress_html:
-  blanklines:       true
 
 
 
