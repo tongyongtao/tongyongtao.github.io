@@ -658,7 +658,7 @@ public class HelloController {
 
 一般分布式系统中，肯定是优先保证P，剩下的就是C和A的取舍。
 
-<img src="/assets/images/image-20250227160759524.png" alt="image-20250227160759524" style="zoom:67%;"/>
+<img src="/assets/images/image-20250227160759524.png" alt="image-20250227160759524" style="zoom:67%; margin-left: 0;"/>
 
 
 
