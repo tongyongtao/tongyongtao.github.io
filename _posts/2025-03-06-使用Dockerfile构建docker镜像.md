@@ -34,7 +34,7 @@ typora-root-url: ../../blog
 
 效果如下：
 
-<img src="/assets/images/image-20250306162921037.png" alt="image-20250306162921037" style="zoom:120%;" align=left />
+![image-20250306170235717](/assets/images/image-20250306170235717.png)
 
 
 
